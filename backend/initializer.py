@@ -16,6 +16,6 @@ def find_ip():
 
 def initialize():
     host = find_ip()
-    port = 3000
+    port = 5000
 
     draw(f"http://{host}:{port}")
