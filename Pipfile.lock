@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "fa11b36c7999332874c482d0650a7cc3554be83d12a2a61e6621abbef90141e2"
+            "sha256": "a99cc15a899e6a6f3be0a8d5be8273f649dca18976f42ec9fced64b3bc8b5850"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -127,18 +127,25 @@
             "markers": "python_version >= '3.5'",
             "version": "==7.2.0"
         },
-        "pyautogui": {
+        "pyalsaaudio": {
             "hashes": [
-                "sha256:ac293fa2e74fc29d52056c8401ec8ec248db72cd77732e12dfae5caa32c432ca"
+                "sha256:3ca069c736c8ad2a3047b5033468d983a2480f94fad4feb0169c056060e01e69"
             ],
             "index": "pypi",
-            "version": "==0.9.50"
+            "version": "==0.9.0"
+        },
+        "pyautogui": {
+            "hashes": [
+                "sha256:a486cb6b818bcbcdf98b48d010c7cee964134fa394b756e8ce6e50d43b58ecc8"
+            ],
+            "index": "pypi",
+            "version": "==0.9.52"
         },
         "pygetwindow": {
             "hashes": [
-                "sha256:ed4ae595ed404fc3d896233a5b8db819162992f100ddfcf4878ed2c34972e560"
+                "sha256:17894355e7d2b305cd832d717708384017c1698a90ce24f6f7fbf0242dd0a688"
             ],
-            "version": "==0.0.8"
+            "version": "==0.0.9"
         },
         "pymsgbox": {
             "hashes": [

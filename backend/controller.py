@@ -1,11 +1,9 @@
-from os import system
-from pyautogui import press
+from backend.media import VolumeController, MediaController
 
-volume_cmd = "amixer -c 1 set Master"
 volume_keys = {
     # name  | cmd
-    "up"  : "10+",
-    "down": "10-",
+    "up"  : "5+",
+    "down": "5-",
     "mute": "toggle",
 }
 
@@ -15,6 +13,7 @@ player_keys = {
     "pause"  : "space",
     "forward": "right"
 }
+
 utility_keys = {
     # name  | cmd
     #FIXME: poweroff isn't working at the moment
@@ -23,15 +22,15 @@ utility_keys = {
 
 
 def handle_keypress(key):
+    volume = VolumeController()
+
     try:
         if key in volume_keys:
-            tmp_cmd = f"{volume_cmd} {volume_keys.get(key)}"
-            system(tmp_cmd)
+            pass
         elif key in player_keys:
             press(player_keys.get(key))
         elif key in utility_keys:
-            tmp_cmd = utility_keys.get(key)
-            system(tmp_cmd)
+            print("Sorry poweroff not working at the moment")
         return True
     except:
         return False

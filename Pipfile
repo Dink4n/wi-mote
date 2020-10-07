@@ -9,6 +9,7 @@ verify_ssl = true
 pyautogui = "*"
 flask = "*"
 qrcode-terminal = "*"
+pyalsaaudio = "*"
 
 [requires]
 python_version = "3.8"
