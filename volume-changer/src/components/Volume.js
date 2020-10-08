@@ -9,14 +9,14 @@ export const Volume = () => {
 		<Grid columns="equal">
 			<Grid.Row>
 				<Grid.Column>
-					<AwesomeButton onPress={() => handleKeyPress("up")}>
+					<AwesomeButton onPress={() => handleKeyPress("vol_up")}>
 						<TiPlus size={20} />
 					</AwesomeButton>
 				</Grid.Column>
 			</Grid.Row>
 			<Grid.Row>
 				<Grid.Column>
-					<AwesomeButton onPress={() => handleKeyPress("down")}>
+					<AwesomeButton onPress={() => handleKeyPress("vol_down")}>
 						<TiMinus size={20} />
 					</AwesomeButton>
 				</Grid.Column>

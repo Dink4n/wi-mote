@@ -12,7 +12,7 @@ export const Utilities = () => {
 				<Grid.Column>
 					<AwesomeButton
 						type="primary"
-						onPress={() => handleKeyPress("mute")}
+						onPress={() => handleKeyPress("toggle_mute")}
 					>
 						<FaVolumeMute size={20} />
 					</AwesomeButton>
@@ -20,7 +20,7 @@ export const Utilities = () => {
 				<Grid.Column>
 					<AwesomeButton
 						type="primary"
-						onPress={() => handleKeyPress("poweroff")}
+						// onPress={() => handleKeyPress("poweroff")}
 					>
 						<MdPowerSettingsNew size={20} />
 					</AwesomeButton>
