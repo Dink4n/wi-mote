@@ -1,5 +1,5 @@
-from backend import app
-from backend.controller import handle_keypress
+from wi_mote.cli import app
+from wi_mote.controller import handle_keypress
 from flask import request, render_template
 
 

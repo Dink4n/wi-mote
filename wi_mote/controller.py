@@ -1,5 +1,5 @@
 from pyautogui import press
-from backend.media import VolumeController
+from wi_mote.media import VolumeController
 
 volume_keys = (
     "vol_up",

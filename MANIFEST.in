@@ -1,0 +1,3 @@
+graft wi-mote/static
+graft wi-mote/templates
+global-exclude *.pyc
