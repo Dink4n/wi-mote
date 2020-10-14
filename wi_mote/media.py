@@ -1,9 +1,11 @@
-from alsaaudio import Mixer
+from alsaaudio import Mixer, mixers
 
 
 class VolumeController:
     def __init__(self):
-        self.mixer = Mixer()
+        # `Mixer` defaults to 'Master' 
+        # `mixers()` gives all available volume controls
+        self.mixer = Mixer(mixers()[0])
         # get the current volume
         self.current_vol = self.mixer.getvolume()[0]
 
