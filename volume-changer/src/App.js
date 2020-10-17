@@ -10,15 +10,8 @@ function App() {
         <div className="App">
             <Container style={{ marginTop: 40 }}>
                 <Utilities />
-                <Volume />
-            </Container>
-            <Container
-                style={{
-                    position: "relative",
-                    top: 100,
-                }}
-            >
                 <Player />
+                <Volume />
             </Container>
         </div>
     );

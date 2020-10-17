@@ -13,8 +13,6 @@ export const Volume = () => {
 						<TiPlus size={20} />
 					</AwesomeButton>
 				</Grid.Column>
-			</Grid.Row>
-			<Grid.Row>
 				<Grid.Column>
 					<AwesomeButton onPress={() => handleKeyPress("vol_down")}>
 						<TiMinus size={20} />
