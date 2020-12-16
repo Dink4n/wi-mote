@@ -4,12 +4,14 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+twine = "*"
 
 [packages]
 pyautogui = "*"
 flask = "*"
 qrcode-terminal = "*"
 pyalsaaudio = "*"
+wi-mote = {editable = true, path = "."}
 
 [requires]
 python_version = "3.8"

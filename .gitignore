@@ -1,1 +1,5 @@
-api/__pycache__/
+wi_mote/__pycache__/
+
+dist/
+build/
+*.egg-info/
