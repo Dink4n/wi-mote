@@ -12,7 +12,8 @@ player_keys = {
     "up": "up",
     "playpause": "space",
     "down": "down",
-    "right": "right"
+    "right": "right",
+    "fullscreen": "f"
 }
 
 
