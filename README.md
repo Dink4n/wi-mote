@@ -1,5 +1,5 @@
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/Dink4n/wi-mote/main/assets/LOGO.png" height="110">
+<img src="https://raw.githubusercontent.com/Dink4n/wi-mote/master/asset/wi-mote-log.png" height="110">
 <br>
 </p>
 
@@ -11,10 +11,10 @@
 </p>
 
 
-<p align="center">  connect and control device with ease </p>
+<p align="center"> 🔧 connect and control device with ease :dizzy: </p>
 
 <p align="center"> 
-<img src="https://raw.githubusercontent.com/Dink4n/wi-mote/main/assets/out.gif" />
+<img src="https://raw.githubusercontent.com/Dink4n/wi-mote/master/asset/out.gif" height="600"/>
 <p/>
 
 ## Installation
